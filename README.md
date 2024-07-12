@@ -11,7 +11,7 @@ This project implements a React component called `BasketballPlayerCard` that dis
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/your-username/basketball-playercard.git
+   git clone https://github.com/Vijayganaboina/Basketball-PlayerCard.git
 
    ```
 
