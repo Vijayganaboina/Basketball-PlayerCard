@@ -39,15 +39,24 @@ body {
 .player-name {
     font-size: 1.8em;
     margin: 16px 0 8px;
-    color: #333;
+    color: hsla(225, 100%, 60%, 0.801);
     text-align: center;
 }
 
 .player-position {
+    display: flex;
+    justify-content: center;
+}
+
+.player-position p {
     font-size: 1.2em;
     color: #777;
     margin-bottom: 16px;
     text-align: center;
+    width: 5rem;
+    border-radius: 1rem;
+    background-color: hsla(225, 100%, 94%, 0.801);
+    padding: 0.75rem;
 }
 
 .player-stats {
@@ -59,11 +68,13 @@ body {
 .player-stats p {
     margin: 8px 0;
     font-size: 1.1em;
+    font-weight: 500;
+    color: #333333;
 }
 
 .player-stats p span {
-    font-weight: 700;
-    color: #333;
+    font-weight: 500;
+    color: #FFD700;
 }
 
 .cards-container {
@@ -80,3 +91,4 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 }
+

@@ -1,6 +1,7 @@
 import React from 'react';
 import BasketballPlayerCard from './BasketballPlayerCard';
 import './App.css';
+import myImage3 from './assets/myImage3.png';
 
 const players = [
     {
@@ -67,7 +68,10 @@ const players = [
 
 function App() {
     return (<>
-         <h1 id='heading'>Basket Ball Players</h1>
+         <div className='heading'>
+            <img src={myImage3} alt='basketball logo' />
+            <h1 >Basket Ball Players</h1>
+         </div>
         <div className="cards-container">
           
             {players.map((player, index) => (

@@ -1,7 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #f0f0f0;
+    /* background-color: #f0f0f0; */
     margin: 0;
+    background-color: hsla(225, 100%, 94%, 0.801);
 }
 
 .cards-container {
@@ -19,9 +20,20 @@ body {
     }
 }
 
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.heading img {
+    height: 4rem;
+    
+}
 
 h1 {
-    text-align: center;
-    margin: 1rem 0;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
+    color: black;
 }
